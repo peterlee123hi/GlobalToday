@@ -1,0 +1,35 @@
+.center { text-align: center; }
+.right { text-align: right; }
+.relative { position: relative; }
+.vertically-center {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+.article {
+	width: 80%;
+	min-width: 320px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+section {
+	width: 100%;
+	padding: 1.2em 0;
+	position: relative;
+}

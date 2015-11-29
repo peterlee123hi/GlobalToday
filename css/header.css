@@ -1,0 +1,34 @@
+header {
+	background-color: #111;
+}
+
+main {
+	position: relative;
+	padding: 0 5em;
+}
+
+main img { border-radius: 50%; }
+
+main img,
+main div { display: inline-block; }
+
+main div {
+	position: relative;
+	vertical-align: top;
+	margin-left: 0.5em;
+}
+
+main h1, p { color: #eee; }
+
+main h1 { 
+	margin: 0.1em 0; 
+	font-weight: 900;
+	font-size: 2.4em;
+}
+
+main p {
+	margin: 0;
+	font-size: 1.2em;
+	color: #fff;
+	font-style: italic;
+}
