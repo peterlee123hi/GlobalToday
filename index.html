@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="shortcut icon" type="image/png" href="favicon.png">
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="css/pure.css">
@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/grids-responsive.css">
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/articles.css">
 </head>
 <body>
 	<header>
@@ -23,19 +24,47 @@
 				<img src="img/brand-no-text.png" alt="Global Today Icon" width="80px" height="80px">
 				<div>
 					<h1>GLOBAL TODAY</h1>
-					<p>"Latest News on Global Issues"</p>
+					<h2>"Latest News on Global Issues"</h2>
 				</div>
+				<input type="text" placeholder="Search">
+				<p id="subscribe-text">SUBSCRIBE NOW</p>
+				<p id="delivery-text">to get home delivery</p>
 			</section>
 		</main>
 		<nav class="pure-menu pure-menu-horizontal">
 			<ul class="pure-menu-list">
-		        <li class="pure-menu-item"><a href="./index.html" class="pure-menu-link selected">News</a></li>
-		        <li class="pure-menu-item" id="red"><a href="./index.html" class="pure-menu-link">Climate Change</a></li>
-		        <li class="pure-menu-item" id="green"><a href="./index.html" class="pure-menu-link">Politics</a></li>
-		        <li class="pure-menu-item" id="orange"><a href="./index.html" class="pure-menu-link">Mars Exploration</a></li>
+		        <li class="pure-menu-item header-link blue-link"><a href="./index.html" class="pure-menu-link selected">NEWS</a></li>
+		        <li class="pure-menu-item header-link red-link"><a href="./index.html" class="pure-menu-link">CLIMATE</a></li>
+		        <li class="pure-menu-item header-link green-link"><a href="./index.html" class="pure-menu-link">POLITICS</a></li>
+		        <li class="pure-menu-item header-link orange-link"><a href="./index.html" class="pure-menu-link">MARS EXPLORATION</a></li>
+		        <li class="pure-menu-item header-link blue-link"><a href="./index.html" class="pure-menu-link">GEOENGINEERING</a></li>
+		        <li class="pure-menu-item header-link red-link"><a href="./index.html" class="pure-menu-link">OPINION</a></li>
+		        <li class="pure-menu-item header-link green-link"><a href="./index.html" class="pure-menu-link">CARBON LEVELS</a></li>
+		        <li class="pure-menu-item header-link orange-link"><a href="./index.html" class="pure-menu-link">ECONOMY</a></li>
+		        <li class="pure-menu-item header-link default-link"><a href="./index.html" class="pure-menu-link">ELECTIONS 2040</a></li>
             </ul>
 		</nav>	
 	</header>
+
+	<div class="articles pure-g">
+		<article class="pure-u-14-24 main-article">
+			<p>NASA's 5th Failed Attempt for Mars Colonization</p>
+		</article>
+		<div class="pure-u-5-24 side-articles">
+			<article>
+				<p>Geoengineering Plan's Rejected by Congress</p>
+			</article>
+			<article>
+				<p>Global Temperatures Rise to 90&deg;F</p>
+			</article>
+			<article>
+				<p>Fossil Fuel Industry Struggles to Find Resources</p>
+			</article>
+		</div>
+		<div class="pure-u-5-24 top-stories">
+			
+		</div>
+	</div>
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 </body>

@@ -7,7 +7,7 @@ nav::after {
     position: relative;
     display: inline-block;
     width: 5em;
-    height: 51px;
+    height: 39px;
     content: "";
     vertical-align: bottom;
     border-top: 1px #444 solid;
@@ -18,8 +18,17 @@ nav::after {
 }
 
 .pure-menu-item {
-    border: 1px #444 solid;
+    outline: 1px #444 solid;
+    border-top: 1px #444 solid;
     border-bottom: none;
+}
+
+.default-link {
+    border-top: 1px #444 solid;
+}
+
+.default-link:hover {
+    background-color: #444;
 }
 
 .pure-menu-link {
@@ -27,6 +36,10 @@ nav::after {
     padding: 1em;
     font-weight: 700;
     color: #fff;
+}
+
+.pure-menu-link:focus {
+    background-color: inherit;
 }
 
 .selected {
@@ -39,35 +52,47 @@ nav::after {
     color: #fff;
 }
 
-#red,
-#green,
-#orange {
-    -webkit-transition: all 0.25s;
-    -moz-transition: all 0.25s;
-    -ms-transition: all 0.25s;
-    transition: all 0.25s;
+.header-link {
+    font-size: 0.75em;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-#red {
+.header-link a {
+    font-weight: 900;
+}
+
+.blue-link {
+    border-top: 1px #529fd2 solid;
+}
+
+.blue-link:hover {
+    background-color: #529fd2;
+}
+
+.red-link {
     border-top: 1px #ad2d25 solid;
 }
 
-#red:hover {
+.red-link:hover {
     background-color: #ad2d25;
 }
 
-#green {
+.green-link {
     border-top: 1px #2f7f29 solid;
 }
 
-#green:hover {
+.green-link:hover {
     background-color: #2f7f29;
 }
 
-#orange {
+.orange-link {
     border-top: 1px #cc5a08 solid;
 }
 
-#orange:hover {
+.orange-link:hover {
     background-color: #cc5a08;
 }

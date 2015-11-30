@@ -1,0 +1,57 @@
+.articles {
+	position: relative;
+	padding: 3em 8em;
+}
+
+.articles article {
+	position: relative;
+	outline: 1px #fff solid;
+}
+
+.articles article::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.2;
+	content: " ";
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.articles article:hover::after {
+	opacity: 0;
+}
+
+.articles article > p {
+	position: absolute;
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+	max-width: 80%;
+}
+
+.articles .main-article > p {
+	font-size: 2.4em;
+	font-weight: 900;
+	left: 25px;
+	bottom: 25px;
+}
+
+.side-articles article > p {
+	font-weight: 700;
+	left: 15px;
+	bottom: 15px;
+}
+
+.articles .main-article {
+	height: 420px;
+}
+
+.side-articles article {
+	height: 140px;
+}

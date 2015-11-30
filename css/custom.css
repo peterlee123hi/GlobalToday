@@ -21,13 +21,6 @@ html {
     overflow: hidden;
 }
 
-.article {
-	width: 80%;
-	min-width: 320px;
-	max-width: 1000px;
-	margin: auto;
-}
-
 section {
 	width: 100%;
 	padding: 1.2em 0;
