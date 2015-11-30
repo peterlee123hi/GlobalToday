@@ -33,6 +33,7 @@
 	margin: 0;
 	color: #fff;
 	max-width: 80%;
+	z-index: 1000;
 }
 
 .articles .main-article > p {
@@ -50,8 +51,30 @@
 
 .articles .main-article {
 	height: 420px;
+	background-image: url("../img/main-article.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .side-articles article {
 	height: 140px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.side-articles article:nth-child(1) {
+	background-image: url("../img/congress.jpg");
+}
+
+.side-articles article:nth-child(2) {
+	background-image: url("../img/heat.jpg");
+}
+
+.side-articles article:nth-child(3) {
+	background-image: url("../img/fossil-fuel.jpg");
+}
+
+.top-stories {
+	height: 420px;
 }
