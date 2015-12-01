@@ -24,10 +24,11 @@
 }
 
 .articles article:hover::after {
+	cursor: pointer;
 	opacity: 0;
 }
 
-.articles article > p {
+.articles article > .headline {
 	position: absolute;
 	display: inline-block;
 	margin: 0;
@@ -36,14 +37,14 @@
 	z-index: 1000;
 }
 
-.articles .main-article > p {
+.articles .main-article > .headline {
 	font-size: 2.4em;
 	font-weight: 900;
 	left: 25px;
 	bottom: 25px;
 }
 
-.side-articles article > p {
+.side-articles article > .headline {
 	font-weight: 700;
 	left: 15px;
 	bottom: 15px;
@@ -75,6 +76,48 @@
 	background-image: url("../img/fossil-fuel.jpg");
 }
 
+.tag {
+	position: absolute;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+	color: #fff;
+	margin: 0;
+	padding: 0.4em;
+	top: 10px;
+	left: 10px;
+	z-index: 1000;
+}
+
 .top-stories {
 	height: 420px;
+}
+
+.story-title,
+.story-link {
+	position: relative;
+	width: 100%;
+	height: 44.9px;
+}
+
+.story-title h1 {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
+	margin: 0;
+	margin-left: 0.5em;
+}
+
+.story-link p {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	font-weight: 900;
+	margin: 0;
+	margin-left: 0.7em;
+}
+
+.story-link:hover {
+	background-color: #fafafa;
+	cursor: pointer;
 }
