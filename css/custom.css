@@ -7,6 +7,7 @@
 .center { text-align: center; }
 .right { text-align: right; }
 .relative { position: relative; }
+.align-right { right: 0; }
 .vertically-center {
 	position: absolute;
 	top: 50%;
@@ -25,7 +26,7 @@ body {
 }
 
 .container {
-	width: 100%;
+	position: absolute;
 	margin: 0;
 	padding: 0;
     overflow: hidden;

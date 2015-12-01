@@ -1,0 +1,32 @@
+footer {
+	position: relative;
+	background-color: #000;
+	width: 100%;
+}
+
+footer::before {
+	height: 40px;
+	content: "";
+	display: block;
+}
+
+footer h1 {
+	display: inline-block;
+	color: #fff;
+	padding: 0 1em;
+	font-size: 0.8em;
+}
+
+footer .pure-menu-item {
+	outline: none;
+	border: none;
+	font-size: 0.8em;
+}
+
+footer nav {
+	display: inline;
+}
+
+footer container {
+	padding: 0 0.5em;
+}

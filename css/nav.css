@@ -1,19 +1,19 @@
-nav {
+.top-nav {
     overflow: hidden;
 }
 
-nav::before,
-nav::after {
+.top-nav::before,
+.top-nav::after {
     position: relative;
     display: inline-block;
     width: 5em;
     height: 39px;
     content: "";
     vertical-align: bottom;
-    border-top: 1px #444 solid;
+    border-top: 2px #444 solid;
 }
 
-nav::after {
+.top-nav::after {
     width: 100%;
 }
 
