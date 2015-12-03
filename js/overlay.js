@@ -3,6 +3,10 @@ $(document).ready(function() {
 });
 
 function applyOverlayListeners() {
+	$("#intro-overlay").click(function() {
+		$("#intro-overlay").fadeOut(500);
+	});
+
 	$("#article-1").click(function() {
 		$("#overlay-1").css("display", "block");
 		$("#overlay-1 span").click(function() {
