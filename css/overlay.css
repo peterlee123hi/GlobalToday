@@ -110,6 +110,8 @@
 }
 
 .share-links {
+	position: absolute;
+	bottom: 2em;
 	width: 100%;
 	text-align: center;
 }
